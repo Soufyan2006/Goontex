@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annex BV</title>
+    <link rel="stylesheet" href="css/reserveer.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        
+    </div>
+    <div id="headerspace"></div>
+    
+    <div id="container">
+        <div id="bestel">
+            <div id="tickets">
+                <div id="ticketheader">
+                    <div id="text">TICKETS BESTELLEN</div>
+                </div>
+                <div id="datumkeuze">
+                    <div id="filmnaam">Film naam</div>
+                    <select name="datum" id="datum">
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">lorem</option>
+                        <option value="select" selected>Selecteer datum</option>
+                    </select>
+                    <select name="tijdstip" id="tijdstip">
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">lorem</option>
+                        <option value="lorem">lorem</option>
+                        <option value="select" selected>Selecteer tijdstip</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="stappen">
+                <div id="stap1"> <!--kies tickets-->
+                    <div id="stap1header">
+                        STAP 1: KIES JE TICKETS
+                    </div>
+                    <div id="ticketmenu">
+                        <div id="ticketmenuboven">
+                            <div class="type">TYPE</div> 
+                            <div class="prijs">PRIJS</div>
+                            <div class="aantal">AANTAL</div>
+                        </div>
+                        <hr>
+                        <div id="ticketmenubinnen">
+                            <div class="flex">
+                                <div class="type1">Normaal</div> 
+                                <div class="prijs1">€9,00</div> 
+                                <input class="aantal1" type="number" id="normaal" name="normaal" min="0" max="100" />
+                                
+                            </div>
+                            <div class="flex">
+                                <div class="type2">Kind t/m 11 jaar</div>
+                                <div class="prijs2">€5,00</div>
+                                <input class="aantal2" type="number" id="kind" name="kind" min="0" max="100" />
+                                
+                            </div>
+                            <div class="flex">
+                                <div class="type3">65+</div>
+                                <div class="prijs3">€7,00</div>
+                                <input class="aantal3" type="number" id="65+" name="65+" min="0" max="100" />
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div id="voucher">
+                        <div>
+                            Voucher code:
+                        </div>
+                        <input type="text" name="Code" id="vouchertext">
+                        <input type="submit" value="Submit" id="submit">
+                    </div>
+                </div>
+                <div id="stap2"> <!--kies stoel-->
+                    <div id="stap2header">
+                        STAP 2: KIES JE STOEL
+                    </div>
+                    <hr id="hr2">
+                    <div id="filmdoek">
+                        FILMDOEK
+                    </div>
+                    <div id="zitplekkeuze">
+                        <img src="https://placehold.co/600x400" alt="placeholder">
+                    </div>
+                </div>
+                
+                <div id="stap3"> <!--Controleer tickets(Tijdstip, datum, aantal tickets, welke film.)-->
+                    <div id="stap2header">
+                        STAP 2: CONTROLEER BESTELLING
+                    </div>
+                    <div id="bestelling">
+
+                    </div>
+                </div>
+                <div id="stap4"> <!--Persoonlijke gegevens in vullen-->
+
+                </div>
+                <div id="stap5"> <!--Kies betaal wijze-->
+
+                </div>
+            </div>
+
+            <div id="afreken"> <!--afreken knop-->
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+</body>
+</html>
