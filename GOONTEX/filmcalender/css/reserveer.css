@@ -1,3 +1,10 @@
+body{
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
 #header{
     background-color: #8B9E51;
     width: 100%;
@@ -5,6 +12,10 @@
     position: fixed;
     left: 0px;
     top: 0px;
+    z-index: 1;
+}
+#headerspace{
+    height: 150px;
 }
 #container{
     height: 1000px;
@@ -16,4 +27,58 @@
     position: relative;
     left: 0px;
     bottom: 0px;
+}   
+#ticketheader{
+    background-color: white;
+    position: relative;
+    color: #8B9E51;
+    margin-top: 30px;
+    height: 100px;
+    font-size: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius:5px;
+}
+#text{
+    margin-left: 15px;
+}
+#datumkeuze{
+    color:#fff;
+    margin-top: 10px;
+    margin-left: 50px;
+    display:flex;
+}
+select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+    color: #8B9E51;
+    margin-right: 10px;
+}
+  
+select:focus{
+    outline:none;
+}
+#filmnaam{
+    color: #8B9E51;
+    width: fit-content;
+    background-color: #fff;
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+    margin-right: 10px;
+}
+#stappen{
+    position: relative;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#stap1header{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #8B9E51;
 }
